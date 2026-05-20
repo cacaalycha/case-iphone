@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Case iPhone Caca</title>
+
   <script src="https://cdn.tailwindcss.com"></script>
 
   <script>
@@ -20,91 +21,158 @@
       }
     }
   </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 
 <body class="bg-lightgrey text-burgundy font-sans">
 
-  <!-- HERO DENGAN BACKGROUND IMAGE -->
-<section class="min-h-screen flex items-center justify-center text-center px-6 relative">
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 w-full z-50 px-4">
 
-  <!-- Background Image -->
-  <div class="absolute inset-0">
-    <img src="https://www.kasemedesign.ca/cdn/shop/collections/kaseme-all-collections_cb873970-0296-45d8-8fc1-745cbd65e06d.webp?v=1737384927&width=1200" 
-         class="w-full h-full object-cover">
-  </div>
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4 mt-4
+                bg-white/10 backdrop-blur-md
+                border border-burgundy
+                rounded-full shadow-lg">
 
-  <!-- Overlay (biar text kebaca) -->
-  <div class="absolute inset-0 bg-black/40"></div>
+      <!-- LOGO -->
+      <h1 class="text-2xl font-bold text-burgundy">
+        Case iPhone Caca
+      </h1>
 
-  <!-- Content -->
-  <div class="relative z-10 text-white">
-    <h1 class="text-4xl md:text-6xl font-bold mb-6">
-      iPhone Kamu Udah keren, Case-nya Belum?
-    </h1>
-    <p class="text-lg md:text-xl mb-8 max-w-xl mx-auto">
-      Case iPhone stylish untuk Gen Z - Harga ramah, look premium.
-    </p>
-    <a href="#produk" class="bg-burgundy text-white px-6 py-3 rounded-full hover:opacity-90 transition">
-      Upgrade HP Kamu
-    </a>
-  </div>
+      <!-- MENU -->
+      <div class="flex gap-6 text-sm font-medium text-burgundy">
 
-</section>
+        <a href="#produk"
+           class="hover:text-white transition duration-300">
+          Produk
+        </a>
+
+        <a href="#testimoni"
+           class="hover:text-white transition duration-300">
+          Testimoni
+        </a>
+
+        <a href="#bergabung"
+           class="hover:text-white transition duration-300">
+          Bergabung
+        </a>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex items-center justify-center text-center px-6 relative pt-20">
+
+    <!-- Background -->
+    <div class="absolute inset-0">
+      <img 
+        src="https://www.kasemedesign.ca/cdn/shop/collections/kaseme-all-collections_cb873970-0296-45d8-8fc1-745cbd65e06d.webp?v=1737384927&width=1200"
+        class="w-full h-full object-cover"
+      >
+    </div>
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 text-white">
+
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">
+        iPhone Kamu Udah keren, Case-nya Belum?
+      </h1>
+
+      <p class="text-lg md:text-xl mb-8 max-w-xl mx-auto">
+        Case iPhone stylish untuk Gen Z - Harga ramah, look premium.
+      </p>
+
+      <a href="#produk"
+         class="bg-burgundy text-white px-6 py-3 rounded-full hover:opacity-90 transition">
+        Upgrade HP Kamu
+      </a>
+
+    </div>
+
+  </section>
 
   <!-- PAIN -->
   <section class="py-16 px-6 bg-white text-center">
+
     <h2 class="text-3xl font-semibold mb-10">
       Kamu pernah ngerasa kayak gini?
     </h2>
 
     <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto text-sm">
+
       <div class="bg-lightgrey p-6 rounded-xl shadow">
         😩 HP mahal tapi tampilannya biasa aja
       </div>
+
       <div class="bg-lightgrey p-6 rounded-xl shadow">
         😕 Bosan sama case lama yang itu-itu aja
       </div>
+
       <div class="bg-lightgrey p-6 rounded-xl shadow">
         💸 Mau beli case bagus tapi harganya mahal
       </div>
+
     </div>
+
   </section>
 
   <!-- SOLUSI -->
   <section class="py-16 px-6 bg-ash text-center">
+
     <h2 class="text-3xl font-semibold mb-6">
       Nggak Perlu Bingung, Ini Solusi dari Kami
     </h2>
 
     <p class="max-w-2xl mx-auto mb-10">
-      Kami hadir dengan berbagai pilihan case iPhone aesthetic yang bikin tampilan HP kamu langsung naik level — tanpa harus keluar biaya mahal.
+      Kami hadir dengan berbagai pilihan case iPhone aesthetic
+      yang bikin tampilan HP kamu langsung naik level —
+      tanpa harus keluar biaya mahal.
     </p>
 
     <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto text-sm">
+
       <div class="bg-white p-6 rounded-xl shadow">
         ✨ Design aesthetic & kekinian
       </div>
+
       <div class="bg-white p-6 rounded-xl shadow">
         💰 Harga aman buat pelajar & mahasiswa
       </div>
+
       <div class="bg-white p-6 rounded-xl shadow">
         📸 Cocok buat yg suka mirror selfie
       </div>
+
     </div>
+
   </section>
 
   <!-- TRUST -->
   <section class="py-6 bg-white text-center text-sm">
+
     <div class="flex flex-wrap justify-center gap-6">
       <p>🔥 Best Seller</p>
       <p>🚚 Gratis Ongkir</p>
       <p>💳 Bisa COD</p>
-      <p>⭐ 4.8/5 Rating</p>
+      <p>⭐ 4.9/5 Rating</p>
     </div>
+
   </section>
 
   <!-- PRODUK -->
   <section id="produk" class="py-16 px-6 bg-lightgrey text-center">
+
     <h2 class="text-3xl font-semibold mb-10">
       Pilih Style Kamu
     </h2>
@@ -113,120 +181,198 @@
 
       <!-- CARD 1 -->
       <div class="bg-white rounded-xl p-4 shadow hover:scale-105 transition relative">
+
         <span class="absolute top-3 left-3 bg-burgundy text-white text-xs px-2 py-1 rounded">
           Best Seller
         </span>
-        <img src="https://carefone.in/cdn/shop/files/pink-1_1c063976-e15b-4418-804b-d110510234ed.jpg?v=1715949375" class="rounded-lg mb-4 hover:scale-110 transition duration-300">
-        <h3 class="font-semibold">Minimal Clean Look</h3>
-        <p class="text-sm">HP keliatan simple tapi classy</p>
-        <p class="mt-2 font-semibold text-burgundy">Rp49.000</p>
-        <p class="text-xs mt-1 text-gray-500">🔥 Terjual 120+ minggu ini</p>
-        <a href="#" class="block mt-3 bg-burgundy text-white py-2 rounded-lg text-sm hover:opacity-90">
+
+        <img 
+          src="https://carefone.in/cdn/shop/files/pink-1_1c063976-e15b-4418-804b-d110510234ed.jpg?v=1715949375"
+          class="rounded-lg mb-4 hover:scale-110 transition duration-300"
+        >
+
+        <h3 class="font-semibold">
+          Minimal Clean Look
+        </h3>
+
+        <p class="text-sm">
+          HP keliatan simple tapi classy
+        </p>
+
+        <p class="mt-2 font-semibold text-burgundy">
+          Rp49.000
+        </p>
+
+        <p class="text-xs mt-1 text-gray-500">
+          🔥 Terjual 120+ minggu ini
+        </p>
+
+        <a href="#"
+           class="block mt-3 bg-burgundy text-white py-2 rounded-lg text-sm hover:opacity-90">
           Pilih Case
         </a>
+
       </div>
 
       <!-- CARD 2 -->
       <div class="bg-white rounded-xl p-4 shadow hover:scale-105 transition">
-        <img src="https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/E90872s.jpg" class="rounded-lg mb-4 hover:scale-110 transition duration-300">
-        <h3 class="font-semibold">Cute & Soft Vibes</h3>
-        <p class="text-sm">Biar makin gemes & standout</p>
-        <p class="mt-2 font-semibold text-burgundy">Rp45.000</p>
-        <a href="#" class="block mt-3 bg-burgundy text-white py-2 rounded-lg text-sm hover:opacity-90">
+
+        <img 
+          src="https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/E90872s.jpg"
+          class="rounded-lg mb-4 hover:scale-110 transition duration-300"
+        >
+
+        <h3 class="font-semibold">
+          Cute & Soft Vibes
+        </h3>
+
+        <p class="text-sm">
+          Biar makin gemes & standout
+        </p>
+
+        <p class="mt-2 font-semibold text-burgundy">
+          Rp45.000
+        </p>
+
+        <a href="#"
+           class="block mt-3 bg-burgundy text-white py-2 rounded-lg text-sm hover:opacity-90">
           Pilih Case
         </a>
+
       </div>
 
       <!-- CARD 3 -->
       <div class="bg-white rounded-xl p-4 shadow hover:scale-105 transition">
-        <img src="https://www.netflix.shop/cdn/shop/files/OP-PMAP_41_101681_12_FT_MF_750x.png?v=1732694715" class="rounded-lg mb-4 hover:scale-110 transition duration-300">
-        <h3 class="font-semibold">Trendy & Eye Catching</h3>
-        <p class="text-sm">Biar nggak tenggelam di keramaian</p>
-        <p class="mt-2 font-semibold text-burgundy">Rp55.000</p>
-        <a href="#" class="block mt-3 bg-burgundy text-white py-2 rounded-lg text-sm hover:opacity-90">
+
+        <img 
+          src="https://www.netflix.shop/cdn/shop/files/OP-PMAP_41_101681_12_FT_MF_750x.png?v=1732694715"
+          class="rounded-lg mb-4 hover:scale-110 transition duration-300"
+        >
+
+        <h3 class="font-semibold">
+          Trendy & Eye Catching
+        </h3>
+
+        <p class="text-sm">
+          Biar nggak tenggelam di keramaian
+        </p>
+
+        <p class="mt-2 font-semibold text-burgundy">
+          Rp55.000
+        </p>
+
+        <a href="#"
+           class="block mt-3 bg-burgundy text-white py-2 rounded-lg text-sm hover:opacity-90">
           Pilih Case
         </a>
+
       </div>
 
     </div>
+
   </section>
 
   <!-- TESTIMONI -->
-  <section class="py-16 px-6 text-center">
+  <section id="testimoni" class="py-16 px-6 text-center">
+
     <h2 class="text-3xl font-semibold mb-10">
       Kata Mereka 💬
     </h2>
 
     <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto text-sm">
+
       <div class="bg-white p-6 rounded-xl shadow">
-        "Dipake buat mirror selfie langsung beda vibes 😭✨"
-        <p>-Vanya, Bandung</p>
+        "Dipake buat mirror selfie langsung beda vibes"
+        <p class="mt-3 font-semibold">
+          - Vanya, Bandung
+        </p>
       </div>
+
       <div class="bg-white p-6 rounded-xl shadow">
-        "Awalnya iseng beli, ternyata jadi sering dipuji temen 😳"
-        <p>-Rani, Semarang</p>
+        "Awalnya iseng beli, ternyata jadi sering dipuji temen"
+        <p class="mt-3 font-semibold">
+          - Rani, Semarang
+        </p>
       </div>
+
       <div class="bg-white p-6 rounded-xl shadow">
         "Harganya murah tapi keliatannya mahal banget!"
-        <p>-Chika, Jakarta</p>
+        <p class="mt-3 font-semibold">
+          - Chika, Jakarta
+        </p>
       </div>
+
     </div>
+
   </section>
 
-<!-- UNTUK PENJUAL (SOFT SELL) -->
-<section class="py-16 px-6 bg-white text-center">
-  <h2 class="text-3xl font-semibold mb-6">
-    Punya Toko Case iPhone Juga?
-  </h2>
+  <!-- BERGABUNG -->
+  <section id="bergabung" class="py-16 px-6 bg-white text-center">
 
-  <p class="max-w-2xl mx-auto mb-10 text-sm">
-    Landing page ini tidak hanya untuk jualan kami, tapi juga bisa jadi inspirasi 
-    untuk kamu yang ingin punya tampilan toko online yang lebih rapi, profesional, 
-    dan mudah digunakan oleh pelanggan.
-  </p>
+    <h2 class="text-3xl font-semibold mb-6">
+      Punya Toko Case iPhone Juga?
+    </h2>
 
-  <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto text-sm">
+    <p class="max-w-2xl mx-auto mb-10 text-sm">
+      Landing page ini tidak hanya untuk jualan kami,
+      tapi juga bisa jadi inspirasi untuk kamu yang ingin
+      punya tampilan toko online yang lebih rapi,
+      profesional, dan mudah digunakan oleh pelanggan.
+    </p>
 
-    <div class="bg-lightgrey p-6 rounded-xl shadow">
-      📱 Tampilan modern & cocok untuk Gen Z
+    <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto text-sm">
+
+      <div class="bg-lightgrey p-6 rounded-xl shadow">
+        📱 Tampilan modern & cocok untuk Gen Z
+      </div>
+
+      <div class="bg-lightgrey p-6 rounded-xl shadow">
+        ⚡ Bisa langsung dipakai untuk jualan
+      </div>
+
+      <div class="bg-lightgrey p-6 rounded-xl shadow">
+        💬 Memudahkan customer untuk order
+      </div>
+
     </div>
 
-    <div class="bg-lightgrey p-6 rounded-xl shadow">
-      ⚡ Bisa langsung dipakai untuk jualan
+    <div class="mt-10">
+
+      <a href="#"
+         class="border border-burgundy text-burgundy px-6 py-3 rounded-full hover:bg-burgundy hover:text-white transition">
+        Ingin Punya Website Seperti Ini?
+      </a>
+
     </div>
 
-    <div class="bg-lightgrey p-6 rounded-xl shadow">
-      💬 Memudahkan customer untuk order
-    </div>
-
-  </div>
-
-  <div class="mt-10">
-    <a href="#" class="border border-burgundy text-burgundy px-6 py-3 rounded-full hover:bg-burgundy hover:text-white transition">
-      Ingin Punya Website Seperti Ini?
-    </a>
-  </div>
-</section>  
+  </section>
 
   <!-- CTA -->
   <section class="py-16 px-6 bg-burgundy text-white text-center">
+
     <h2 class="text-3xl font-semibold mb-6">
       Saatnya Upgrade iPhone Kamu!
     </h2>
+
     <p class="mb-4 text-sm opacity-90">
       Pilih case favoritmu sekarang sebelum kehabisan
     </p>
 
-    <a href="#" class="bg-white text-burgundy px-6 py-3 rounded-full font-semibold hover:opacity-90 transition">
+    <a href="#"
+       class="bg-white text-burgundy px-6 py-3 rounded-full font-semibold hover:opacity-90 transition">
       Beli Sekarang
     </a>
+
   </section>
 
-  <!-- STICKY CTA -->
+  <!-- STICKY BUTTON -->
   <div class="fixed bottom-4 left-1/2 transform -translate-x-1/2">
-    <a href="#" class="bg-burgundy text-white px-6 py-3 rounded-full shadow-lg hover:opacity-90">
+
+    <a href="#"
+       class="bg-burgundy text-white px-6 py-3 rounded-full shadow-lg hover:opacity-90">
       🔥 Checkout Sekarang
     </a>
+
   </div>
 
   <!-- FOOTER -->
